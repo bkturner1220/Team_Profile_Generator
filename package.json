@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/bkturner1220/Team_Profile_Generator/issues"
   },
-  "homepage": "https://github.com/bkturner1220/Team_Profile_Generator#readme"
+  "homepage": "https://github.com/bkturner1220/Team_Profile_Generator#readme",
+  "dependencies": {
+    "@gweiermann/inquirer-builder": "^0.0.2"
+  }
 }
