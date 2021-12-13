@@ -1,46 +1,73 @@
-# Team_Profile_Generator
+# Team Profile Generator ![License](https://img.shields.io/badge/License-MIT-blue)
 
-A Node.js command-line application that takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person.
+## Brief Description 📖<a name='description'></a>
 
-# Good_README_Generator <div align="right">[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)</div>
+This project required building a Node.js command-line application that takes in information about employees on a software engineering team and generates an HTML webpage that displays summaries for each person.
 
-## Description
+## Table of Contents 💡
 
-> This is a github project repository.
+- [Brief Description](#description)
+- [About Team Profile Generator](#about)
+- [Installation](#install)
+- [Usage](#usage)
+- [Testing](#test)
+- [Screenshots](#screenshots)
+- [Demo Video](#demo)
+- [Github Pages Link](#pages)
+- [Github Repo Link](#repo)
+- [Contact Details](#contact)
+- [License](#license)
+- [Contributions to Repo](#contributions)
+- [Additional Information](#info)
 
-## Table of Contents
+## About Team Profile Generator <a name='about'></a>
 
-1. [Installation](#install)
-2. [Usage](#usage)
-3. [License](#license)
-4. [Contributing](#contributing)
-5. [Tests](#tests)
-6. [Questions](#questions)
+When prompted for team members and their information, then an HTML is generated that displays a nicely formatted team roster based on user input.
 
-## Installation <a name="install"></a>
+## Installation 🏗️<a name='install'></a>
 
-You will only need an active browser to view this portfolio correctly. No installations requried! :+1:
+npm i
 
-## Usage <a name="usage"></a>
+## Usage 📝<a name='usage'></a>
 
-No specifics.
+Inquirer is easiest to use when installed with npm: npm install inquirer. Then you can load the module into your code with a require call: const inquirer = require(‘inquirer’);  
+ Enter management information. You will be redirected to a menu, where you can choose to add an engineer, add an intern, or end the application
 
-## License <a name="license"></a>
+## Testing <a name='test'></a>
 
-This project is Apache licensed.
+npm test
 
-## Contributing <a name="contributing"></a>
+## Screenshots 📷<a name='screenshots'></a>
 
-Feel free to fork this repository, and open a pull request to suggest changes. Please provide a short note on your updates and/or additions!
+![alt text](./dist/assets/Screenshot-TeamProfile.png)
 
-## Tests <a name="tests"></a>
+## Demo Video <a name='demo'></a>
 
-None
+<a href="https://youtu.be/0gDHoclN5f0" target="_blank">https://youtu.be/0gDHoclN5f0</a>
 
-## Questions <a name="questions"></a>
+## Github Pages Link <a name='pages'></a>
 
-For any additional questions or other interests in this project, please contact me at:  
- github.com/hihellos  
- or  
- hihellos@github.com  
- :woman_technologist:
+<a href="https://bkturner1220.github.io/Team_Profile_Generator" target="_blank">https://bkturner1220.github.io/Team_Profile_Generator</a>
+
+## Github Repo Link <a name='repo'></a>
+
+<a href="https://github.com/bkturner1220/Team_Profile_Generator" target="_blank">https://github.com/bkturner1220/Team_Profile_Generator</a>
+
+## Contact Information <a name='contact'></a>
+
+Github Username: [bkturner1220](https://github.com/bkturner1220/)<br>
+Github: <a href="https://github.com/bkturner1220/">https://github.com/bkturner1220/</a><br>
+Email: <a href="mailto:bturner@texascdlprep.com">bturner@texascdlprep.com</a>
+
+## License Information <a name='license'></a>
+
+![License](https://img.shields.io/badge/License-MIT-blue)<br>
+The application is covered under MIT license.
+
+## Contributions towards Team Profile Generator 🏆<a name='contributions'></a>
+
+SMU Coding boot camp
+
+## Additional Information <a name='info'></a>
+
+If you encounter any problems, please feel free to reach out to me by sending me a [Email] to <a href="mailto:bturner@texascdlprep.com">bturner@texascdlprep.com</a>.

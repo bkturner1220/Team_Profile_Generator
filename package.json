@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/bkturner1220/Team_Profile_Generator#readme",
   "dependencies": {
-    "@gweiermann/inquirer-builder": "^0.0.2"
+    "@gweiermann/inquirer-builder": "^0.0.2",
+    "jest": "^27.4.4"
   }
 }

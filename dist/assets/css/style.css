@@ -1,0 +1,50 @@
+body {
+  background-size: auto;
+  background-color: #ffffff;
+  color: #ffffff;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.team-heading {
+  color: rgb(8, 8, 8);
+  text-align: center;
+  padding-top: 10px;
+  margin-top: 10px;
+  background-image: linear-gradient(
+    to right,
+    #fcac84d0,
+    rgba(251, 160, 107, 0.95)
+  );
+}
+
+.employee-card {
+  margin-right: 2rem;
+  min-width: 20rem;
+  background-color: rgba(251, 160, 107, 0.95);
+}
+h1 {
+  padding: 10px;
+  font-weight: bolder;
+}
+
+h2 {
+  color: rgb(0, 0, 0);
+  padding-top: 15px;
+  font-weight: bolder;
+}
+
+h3 {
+  color: rgb(0, 0, 0);
+  padding-top: 15px;
+  padding-left: 10px;
+}
+@media screen and (max-width: 800px) {
+  .team-heading {
+    grid-template-columns: auto;
+    grid-row-gap: 10px;
+  }
+  .employee-card {
+    width: 50vh;
+  }
+}

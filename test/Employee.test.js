@@ -28,8 +28,8 @@ describe('Instantiation', () => {
         it('should return correct id of Employee', () => {
 
             let employeeOne = new Employee("Donald", 1, "DonaldTrump@gmail.com");
-            let id = employeeOne.getI();
-                expect(email).toBe("DonaldTrump@gmail.com");    
+            let id = employeeOne.getId(1);
+                expect(id).toEqual(1);    
         })
     });
 
@@ -45,7 +45,7 @@ describe('Instantiation', () => {
     describe('getRole', () => {
         it('should return correct role of \"Employee\""  ', () => {
 
-            let employeeOne = new Manager("Donald", 1, "DonaldTrump@gmail.com");
+            let employeeOne = new Employee("Donald", 1, "DonaldTrump@gmail.com");
             let role = employeeOne.getRole();
                 expect(role).toBe("Employee");
         })
